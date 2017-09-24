@@ -1,13 +1,64 @@
-@import
-url('https://fonts.googleapis.com/css?family=Pacifico'); 
+body { 
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color: white; 
+}
 
-body {
-    position: centre; 
-    background-color: rgba(255, 255, 255, 0.65);
-    height: 100%;
-    font-family: 'Pacifico', cursive,   white; 
-    font-size: 40px; 
-    
-  }
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden; 
+}
 
-  
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: rgb(160, 216, 238);
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: white 3px solid; 
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px; 
+}
+
+header li{
+  display: inline;
+  padding: 0 20px 0 20px; 
+}
+
+header #brand{
+  float: left 
+}
+
+header #brand h1{
+  margin: 0
+}
+
+header nav{
+  float: right;
+  margin-top: 10px; 
+}
+
+header .highlight, header .current a{
+  color: black;
+  font-weight: bold;
+
+}
+
+header a:hover {
+  color: white;
+  font-weight: bold; 
+}
+

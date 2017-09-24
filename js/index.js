@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded',function(event){
+/* document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
     var dataText = [ "Hi, I'm Harry an aspiring webdeveloper..."];
     
@@ -40,3 +40,4 @@ document.addEventListener('DOMContentLoaded',function(event){
     // start the text animation
     StartTextAnimation(0);
   });
+*/
