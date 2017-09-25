@@ -47,7 +47,8 @@ strong {
 }
 
 img {
-	width: 100%;
+  width: 100%;
+  height: 100%; 
 }
 
 h1, h2, h3, h4, h5 {
@@ -220,7 +221,7 @@ header {
 .image-divider {
 	padding: 15% 0;
 	background:'img/outlook.jpg';
-	background-size: auto;
+	background-size: cover;
 	background-position: center top;
 }
 
