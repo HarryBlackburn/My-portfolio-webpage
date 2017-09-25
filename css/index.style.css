@@ -70,9 +70,37 @@ header {
 	background-size: contain;
 	background-position: center top;
 	width: 100%;
-	
+	top: 0;
+	left: 0;
+	z-index: 100;
 }
 
+ul {
+	list-style: none;
+	font-family: proxima-nova, sans-serif;
+	font-style: bold;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: white;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+	color: white; 
+}
+
+nav {
+	float: right; 
+	padding: 20px;
+	text-decoration: none;
+}
+
+#menu-icon {
+	background: url
+}
 .intro {
 	max-width: 960px;
 	margin: 0 auto;
@@ -217,15 +245,6 @@ header {
 	color: #dcd0c0;
 	text-decoration: none;
 }
-
-
-.image-divider {
-	padding: 15% 0;
-	background-image:url(img/outlook.jpg)
-	background-size: cover;
-	background-position: center top;
-}
-
 
 footer {
   background-color:#dcd0c0;
