@@ -67,9 +67,10 @@ h3 {
 
 header {
 	background: #dcd0c0; 
-	background-size: cover;
+	background-size: contain;
 	background-position: center top;
 	width: 100%;
+	
 }
 
 .intro {
@@ -142,7 +143,7 @@ header {
 	float: left;
 	text-align: left;
 	width: 480px;
-	background-color: #fff;
+	background-color: #f4f4f4;
 	height: 100%;
 }
 
@@ -192,6 +193,7 @@ header {
 
 .contact {
 	width: 100%;
+	max-height: 20;
 	background-color: #373737;
 	padding: 5% 0;
 	margin-top: 5%;
@@ -220,8 +222,7 @@ header {
 
 .image-divider {
 	padding: 15% 0;
-	background:'img/outlook.jpg';
-	background-size: cover;
+	background-image:url(img/outlook.jpg);
 	background-position: center top;
 }
 
