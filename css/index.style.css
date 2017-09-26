@@ -82,7 +82,7 @@ ul {
 li {
 	display: inline-block;
 	float: left;
-	padding: 10px
+	padding: 20px
 }
 
 a {
@@ -91,22 +91,16 @@ a {
 	font-weight: bold;
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
 nav {
 	float: right;
 	padding: 20px;
 	font-family: 'Open Sans', sans-serif;
 }
 
-#menu-icon {
-	background: url(img/menu-icon.png) no-repeat center;
-	display: hidden;
-	width: 32px;
-	height: 32px;
+nav :hover {
+	color:#373737;
 }
+
 .intro {
 	max-width: 960px;
 	margin: 0 auto;
@@ -245,7 +239,7 @@ nav {
 .contact-content h4 {
 	font-size: 1.875em;
 	padding: 1% 0;
-	color: #fff;
+	color: #dcd0c0;
 	font-weight: 600;
 	letter-spacing: 0.04em;
 }
@@ -253,6 +247,10 @@ nav {
 .contact-content a {
 	color: #dcd0c0;
 	text-decoration: none;
+}
+
+.contact-content a:hover {
+	color: white;
 }
 
 footer {
