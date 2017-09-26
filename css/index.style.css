@@ -77,29 +77,35 @@ header {
 
 ul {
 	list-style: none;
-	font-family: proxima-nova, sans-serif;
-	font-style: bold;
-	font-size: 1.5em;
-	text-decoration: none;
-	color: white;
 }
 
 li {
 	display: inline-block;
 	float: left;
-	padding: 10px;
+	padding: 10px
+}
+
+a {
+	color: #fff;
 	text-decoration: none;
-	color: white; 
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 nav {
-	float: right; 
+	float: right;
 	padding: 20px;
-	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #menu-icon {
-	background: url
+	background: url(img/menu-icon.png) no-repeat center;
+	display: hidden;
+	width: 32px;
+	height: 32px;
 }
 .intro {
 	max-width: 960px;
@@ -150,6 +156,7 @@ nav {
 	margin: 10px auto;
 	font-size: 1.5em;
 	padding: 2% 0;
+	text-align: justify; 
 }
 
 .about p a {
@@ -173,10 +180,12 @@ nav {
 	width: 480px;
 	background-color: #f4f4f4;
 	height: 100%;
+	text-align: justify;
 }
 
 .text-box-content {
 	padding: 4% 8%;
+	text-align: justify;
 }
 
 .text-box-content p {
