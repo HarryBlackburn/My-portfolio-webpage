@@ -107,6 +107,12 @@ nav :hover {
 	padding: 8% 0;
 }
 
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+  }
+
 .intro h1 {
 	font-size: 6em;
 	text-align: center;
