@@ -67,7 +67,7 @@ h3 {
 
 header {
 	background: #dcd0c0; 
-	background-size: contain;
+	background-size: ;
 	background-position: center top;
 	width: 100%;
 	top: 0;
@@ -92,6 +92,7 @@ a {
 }
 
 nav {
+	text-decoration: none; 
 	float: right;
 	padding: 20px;
 	font-family: 'Open Sans', sans-serif;
